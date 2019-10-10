@@ -44,11 +44,11 @@ function closeimage(){
 function download_image(){
    let checkimage = document.getElementById("image-viewer").getAttribute("data-which-image");
    if(checkimage=="planning"){
-    download_button.setAttribute("href","images/planning.jpeg");
+    download_button.setAttribute("href","planning.jpeg");
    }else if(checkimage=="management"){
-    download_button.setAttribute("href","images/management.jpeg");
+    download_button.setAttribute("href","management.jpeg");
    }else if(checkimage=="principles"){
-    download_button.setAttribute("href","images/priciples.jpeg");
+    download_button.setAttribute("href","priciples.jpeg");
    }
 };
 button1.addEventListener('click',openimage);
