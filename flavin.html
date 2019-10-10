@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flavin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet"type="text/css"href="flavin.css">
+        <script src="flavin.js"></script>
+    </head>
+    <body id="body">
+      <div class="head">               
+          <div id="parent">
+              <h1>Flavin</h1>
+              <input id="search"placeholder="search">
+          </div>
+      </div>
+      <div class="info">
+        <h1 class="why">Learn business with <span id="Infographicsid">Infographics</span></h1>
+      </div>
+      <div class="grid">
+          <div class="row">
+              <div class="polaroid">
+                <div class="hide">
+                <img src="images/planning.jpeg"class="image-shadow">
+                <img src="images/planning.jpeg"class="image">
+                <p class="view-button"id="view-button1">View</p>
+                </div>
+              </div>
+              <div class="polaroid">
+                <div class="hide">
+                <img src="images/management.jpeg"class="image-shadow">
+                <img src="images/management.jpeg"class="image">
+                <p class="view-button"id="view-button2">View</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="polaroid">
+                <div class="hide">
+                <img src="images/principles.jpeg"class="image-shadow">
+                <img src="images/principles.jpeg"class="image">
+                <p class="view-button"id="view-button3">View</p>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+        <h2>Usefull links👇</h2>
+
+          <ul>
+            <li>principles of management</li>
+            <li>planning</li>
+            <li>marketing magic</li>
+            <li>technics of scientific management</li>
+          </ul>
+
+          <div class="message">
+            <textarea class="comment"placeholder="leave your comment here!"id="usertext"></textarea>
+            <div class="cover">
+              <input id="name"placeholder="Name">
+              <p id="submit">Submit</p>
+            </div>
+
+            <div class="commentbyuser"id="commentbyuserid">
+              <p id="comment-title">Comments</p>
+
+
+              <div class="post"id="post-1">
+                  <div class="text">
+                    <p>Nice work...🤘🤘</p>
+                  </div>
+                  <div class="post-info">
+                    <p id="post_owner"class="details">By Amit Rajput</p>
+                    <p id="post_date"class="details">1 day ago</p>
+                  </div>
+              </div>
+
+            </div>
+            <div class="show-more">
+              <p class="show-more-button"id="ShowMoreButton"data-stop-or="no-stop">Show more</p>
+            </div>
+
+          </div>
+
+          <div class="thanku">
+            <h3 class="credit">Made with &#10084 by Shivendra</h3>
+            <h3 class="year">© 2019 Flavin</h3>
+          </div>
+      </div>
+
+
+
+      <div class="image-viewer"id="image-viewer"data-which-image="empty">
+        <div class="navigator">
+          <div class="options">
+            <i class="material-icons">star</i>
+            <a id="download-button"class="material-icons"download>vertical_align_bottom</a>
+            <i class="material-icons"id="close">close</i>
+          </div>
+        </div>
+        <div class="infographic-container">
+          <img src=""class="infographic"id="infographic">
+        </div>
+      </div>
+
+    </body>
