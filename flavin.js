@@ -78,7 +78,6 @@ const News = () =>{
         xhttp.onreadystatechange = function() {
           if (this.readyState == 4 && this.status == 200) {
               let comments = this.responseText;
-              alert(comments);
               let lines = comments.split(',');
               lines.pop();
               let length = lines.length - 1;
@@ -146,7 +145,7 @@ if(comment == ""){
     if(name == ""){
         document.getElementById("name").setAttribute("placeholder","Your Name!")
     }else{
-        alert("new");
+        alert(input);
 
     }
 }
