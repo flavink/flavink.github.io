@@ -78,6 +78,7 @@ const News = () =>{
         xhttp.onreadystatechange = function() {
           if (this.readyState == 4 && this.status == 200) {
               let comments = this.responseText;
+              alert(comments);
               let lines = comments.split(',');
               lines.pop();
               let length = lines.length - 1;
@@ -128,7 +129,7 @@ const News = () =>{
 
           };
         };
-        xhttp.open("GET", "user_response.txt", true);
+        xhttp.open("GET", "https://github.com/flavink/flavink.github.io/edit/master/flavin.js", true);
         xhttp.send();
       
 }
