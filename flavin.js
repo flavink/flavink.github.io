@@ -146,7 +146,7 @@ if(comment == ""){
     if(name == ""){
         document.getElementById("name").setAttribute("placeholder","Your Name!")
     }else{
-        
+        alert("new");
 
     }
 }
