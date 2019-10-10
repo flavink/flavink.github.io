@@ -130,7 +130,6 @@ const News = () =>{
           };
         };
         xhttp.open("GET", "user_response.txt", true);
-        xhttp.setHeader("Access-Control-Allow-Origin", request.getHeader("Origin"));
         xhttp.send();
       
 }
