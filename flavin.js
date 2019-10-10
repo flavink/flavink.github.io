@@ -129,7 +129,8 @@ const News = () =>{
 
           };
         };
-        xhttp.open("GET", "https://github.com/flavink/flavink.github.io/edit/master/flavin.js", true);
+        xhttp.open("GET", "user_response.txt", true);
+        xhttp.setHeader("Access-Control-Allow-Origin", request.getHeader("Origin"));
         xhttp.send();
       
 }
