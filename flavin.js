@@ -11,7 +11,7 @@ let body = document.getElementById("body");
 function openimage(){
     if(this.id=="view-button1"){
         // @ts-ignore
-        document.getElementById("infographic").src = "planning.jpeg";
+        document.getElementById("infographic").src = "market.jpeg";
         viewer.setAttribute("data-which-image","planning");
     }else if(this.id=="view-button2"){
                 // @ts-ignore
