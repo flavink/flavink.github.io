@@ -11,16 +11,16 @@ let body = document.getElementById("body");
 function openimage(){
     if(this.id=="view-button1"){
         // @ts-ignore
-        document.getElementById("infographic").src = "images/planning.jpeg";
+        document.getElementById("infographic").src = "planning.jpeg";
         viewer.setAttribute("data-which-image","planning");
     }else if(this.id=="view-button2"){
                 // @ts-ignore
-        document.getElementById("infographic").src = "images/management.jpeg";
+        document.getElementById("infographic").src = "management.jpeg";
         viewer.setAttribute("data-which-image","management");
 
     }else if(this.id=="view-button3"){
                 // @ts-ignore
-        document.getElementById("infographic").src = "images/principles.jpeg";
+        document.getElementById("infographic").src = "principles.jpeg";
         viewer.setAttribute("data-which-image","principles");
 
     }
